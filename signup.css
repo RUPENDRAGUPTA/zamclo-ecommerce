@@ -1,0 +1,76 @@
+body {
+    background-color: #EFF5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#bd {
+    background-color: #EFF5F5;
+}
+
+body .signform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%
+        /* position: relative; */
+
+
+        /* margin:5rem; */
+}
+#inputAddress::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#inputAddress2::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#phone::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#name::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#user::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#inputEmail4::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#inputPassword4::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+#inputCity::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+}
+/* #inputState{
+   
+   font-size: 0.9rem;
+} */
+/* #ch::placeholder{
+   opacity: 0.3;
+   font-size: 0.9rem;
+} */
+
+select:required:invalid {
+   color: rgb(152, 147, 147);
+   font-size: 0.9rem;
+ }
+ option[value=""][disabled] {
+   display: none;
+ }
+ option {
+   color: #000;
+ }

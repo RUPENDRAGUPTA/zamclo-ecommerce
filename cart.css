@@ -1,0 +1,18 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 2rem;
+    /* justify-content: space-evenly; */
+  
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+  }
+  
+  img {
+    height: 12rem;
+  }
